@@ -1,0 +1,25 @@
+.Logo {
+    max-width: 320px;
+  }
+
+.topbar {
+   width: 100%;
+   height: 80px;
+   z-index: 100;
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+  
+   background: #000000;
+}
+
+body {
+    --bodyPaddingTop: 80px;
+    padding-top: var(--bodyPaddingTop);
+  }
